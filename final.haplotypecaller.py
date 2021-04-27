@@ -26,6 +26,7 @@ with open(dbsnp) as ifp:
             else:
                 dbsnp_dic[key] = x_1[6]
 
+
 ## gnomad
 gnomad_dic = {}
 with open(gnomad) as ifp:
@@ -37,6 +38,7 @@ with open(gnomad) as ifp:
                 pass
             else:
                 gnomad_dic[key] = x_1[6]
+
 
 ## KRG
 krg_dic = {}
